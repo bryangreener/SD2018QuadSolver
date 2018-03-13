@@ -1,0 +1,123 @@
+\documentclass[notitlepage,a4paper,12pt]{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{tabto}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+% For clickable TOC
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+% For definitions
+%\newtheorem{defn}{Definition}[section]
+%\newtheorem{thrm}{Theorem}[section]
+%\newtheorem{ex}[Example}[section]
+\newtheorem*{ex}{Example}
+\newtheorem*{defn}{Definition}
+\newtheorem*{thrm}{Theorem}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{result}{Result}
+
+
+% For circled text
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.8pt] (char) {#1};}}
+
+% For equation system alignment
+\usepackage{systeme,mathtools}
+% Usage:
+%	\[
+%	\sysdelim.\}\systeme{
+%	3z +y = 10,
+%	x + y +  z = 6,
+%	3y - z = 13}
+
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+%If you want to title your bold things something different just make another thing exactly like this but replace "problem" with the name of the thing you want, like theorem or lemma or whatever
+ 
+%used for matrix vertical line
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother 
+ 
+% Change chapter numbering
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
+
+\usepackage{fancyhdr,afterpage}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+\author{Paul R Phillips, Brian Greener}
+\title{Testing Plan:\\JKK Consultant QuadSolver}
+
+\begin{document}
+\maketitle
+
+\section*{Introduction} 
+
+Purpose of this project is to create a program which can calculate the solutions for a standard quadratic equation. The program takes input values from the command line, and finds a solution for such inputs using the quadratic equation. Output should be rounded to seven decimal places. If given a prompt, the program should return output from a machine's command line. Output does not need to be stored, rather program is treated as a calculator. Tests are needed to make sure inputs produce only real solutions (with the exception of double solutions), and are 32 bit single precision values (output should be the same precision as well). Inputs should also be able to take values in scientific notation. Operating system intended for application is Hubunto 1604 (Linux), using C, and the GCC compiler. 
+
+\section*{Stories}
+Engineer is able to provide a quadratic equation (assuming in standard form) as input, and have output validated (error messages returned)
+Values Evaluated for: Non-numeric, +/- Inf, NaN, NA, a = zero. \\
+
+Note: Input is successfully converted to IEEEfp (single precision), and has scientific notation compatibility. \\
+
+Engineer's input calculates the standard quadratic equation's determinant. Solver should flag complex and double solutions (returning value of double solution). \\
+
+Engineer is able to execute the Quadratic solver from the command line (i.e. does not have to open application) and is able to receive desired output (output does not need to be stored). \\
+
+"Developer should be able to have a list of unit tests
+which its purpose to test and validate the functionality of the individual components which build the quadsolver". \\
+
+Create a .tar file so that program can be distributed to third part users. \\
+
+Developer is able to check output from automated tests ran (instead of having to manually run tests, developer will only have to maintain results of tests). \\
+
+\section*{Use Cases}
+
+\section*{Testing Plan}
+Unit Testing \\
+
+It is our plan to conduct unit tests in order to validate that our quadsolver program will work in the following possible situations: \\
+
+ - Input is successfully converted from string to the IEEE floating point format \\
+ 
+ - Inputted values do not contain NA's, character values, or NaN's \\
+ 
+ - Inputted values also do not contain positive or negative Inf's, and are not zeros \\
+ 
+ - The determinant should flag an error if the equation's determinant is less than zero
+ 
+ - If the determinant equals zero, a warning message should display along with the double solution for the equation\\
+ 
+The framework we'll be using for Unit Testing is JUnit for our C version of the program and RUnit for the R version. \\
+ 
+Coverage Testing \\
+
+Coverage testing is used to determine the amount of source code actually being used in a program. (This section is still under development). \\
+
+Usability Testing \\
+
+A third party member of our class, Austin Ragotzy, will be volunteering to operate in our blackbox testing and usability testing.The usability test should be completed within a ten minute time frame. 
+
+\end{document}

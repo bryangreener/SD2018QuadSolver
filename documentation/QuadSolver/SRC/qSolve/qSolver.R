@@ -1,0 +1,76 @@
+########################################### qSolver #########################################
+
+#### Author: Paul R Phillips
+
+#### Description: Inputs "output" object from rNumber_Validator function. If the determinant value is greater
+#                 than zero, the solutions to the standard quadratic equation are solved. If the determinant 
+#                 equals zero, then a warning message is outputted along with the single solution. If the 
+#                 determinant is less than zero, then an error message is returned indicating there are no real
+#                 solutions for this equation. 
+
+# Checking if the equation's determinant is greater than zero
+# - if TRUE, equation's solutions are returned
+# - if FALSE, a message is returned indicating determinant is less than zero
+
+qSolver <- function(output) {
+  
+#### Defining variables
+  
+det_val <- output$determinant
+
+a <- output$a
+
+b <- output$b
+
+c <- output$c
+
+# Checking if the determinant is greater than zero
+  
+if (det_val > 0) {
+  
+  x1 <- (-b + sqrt(det_val))/ (2 * a)
+  
+  x2 <- (-b - sqrt(det_val))/ (2 * a)
+  
+  solutions <- c(x1, x2)
+  
+  output <- list(Flag = 0,
+                 Solutions = solutions)
+  
+}
+
+# Checking if equation's determinant equals zero
+# - if TRUE, a warning message is returned, along with the equation's solution
+# - if FALSE, the equation's solutions are returned
+
+else if (identical(det_val, 0)) {
+  
+  x <- (-b + sqrt(det_val))/(2 * a)
+  
+  values <- c(a, b, c)
+  
+  output <- list(Flag = 5,
+                 Message = "Warning: double solution is present (i.e. determinant equals zero).",
+                 Input = values,
+                 Solution = x)
+  
+  return(output)
+  
+}
+
+else {
+  
+  values <- c(a, b_convert, c_convert)
+  
+  output <- list(Flag = 6,
+                 Message = "Error: determinant is less than zero, there are no real solutions for equation.",
+                 Input = values,
+                 Determinant = det_val)
+  
+  return(output)
+  
+}
+
+return(output)
+
+} 
