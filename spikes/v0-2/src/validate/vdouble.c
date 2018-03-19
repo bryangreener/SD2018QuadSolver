@@ -1,3 +1,4 @@
+// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #include "vdouble.h"
 int vdouble(char *input){
   if(input == NULL){ return 0; }

@@ -1,3 +1,4 @@
+// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #ifndef WOUT_H
 #define WOUT_H "wout.h"
 #include<stdio.h>

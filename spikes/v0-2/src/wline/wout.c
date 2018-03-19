@@ -1,3 +1,4 @@
+// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #include "wout.h"
 void mainMenu(void){
   hRule();

@@ -1,3 +1,4 @@
+# Source: https://spin.atomicobject.com/2016/08/26/makefile-c-projects/
 CC = gcc
 
 TARGET ?= a.out

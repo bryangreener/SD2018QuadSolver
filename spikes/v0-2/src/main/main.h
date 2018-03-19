@@ -1,3 +1,4 @@
+// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #ifndef MAIN_H_
 #define MAIN_H_ "main.h"
 #include "../validate/vdouble.h"

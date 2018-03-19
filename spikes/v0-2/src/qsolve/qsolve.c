@@ -1,3 +1,4 @@
+// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #include "qsolve.h"
 Tuple qsolve(double a, double b, double c){
   Tuple result = {
