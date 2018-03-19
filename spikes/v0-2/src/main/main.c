@@ -1,4 +1,3 @@
-// Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #include "main.h"
 int main(int argc, char *argv[]){
   char *input;
