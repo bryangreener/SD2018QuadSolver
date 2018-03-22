@@ -1,9 +1,9 @@
-#PROJECT MEMBERS
+# PROJECT MEMBERS
 Bryan Greener
 Dylan Martin
 Paul Phillips
 
-#FOLDER CONTENTS
+## FOLDER CONTENTS
 bin_c
   This folder only ever has one file in it. This is where the "quadsolver"
   executable is saved and can be ran from.
@@ -32,15 +32,15 @@ makefile
   the build folder, then links these files in order to generate an executable
   file in the bin folder.
 
-#HOW TO COMPILE C PROGRAM
+## HOW TO COMPILE C PROGRAM
 While in the root folder (folder that this README is currently in), type
 "make" to run the makefile and build the program in bin.
 
-#HOW TO CLEAN C PROGRAM
+## HOW TO CLEAN C PROGRAM
 While in the root folder (folder that this README is currently in), type
 "make clean" in order to remove all generated object files and the executable.
 
-#DIRECTORY DESIGN STANDARDS
+## DIRECTORY DESIGN STANDARDS
 The project is to be split into four main folders: src, build, bin, include
 These folders are to be populated with appropriate files. 
 
@@ -57,7 +57,7 @@ These folders are to be populated with appropriate files.
       by the source files in src. These are to be all at the root level of
       the include folder and not split into separate folders.
 
-#PROGRAMMING STANDARDS
+## PROGRAMMING STANDARDS
 All files writtin in the C laguage in this or any subfolders is to follow
 the following programming standards:
 
@@ -107,4 +107,4 @@ the following programming standards:
 
 
 
-All code in this project is property of this project's members.
+##### All code in this project is property of this project's members.
