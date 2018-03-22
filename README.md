@@ -1,7 +1,6 @@
-# PROJECT MEMBERS
-Bryan Greener
-Dylan Martin
-Paul Phillips
+# Senior Design Quadratic Solver
+## PROJECT MEMBERS
+Bryan Greener, Dylan Martin, and Paul Phillips
 
 ## FOLDER CONTENTS
 bin_c
