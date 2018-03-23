@@ -53,3 +53,46 @@ void printResult(double r1, double r2){
             r1, r2 );
   }
 }
+
+void writeLog(char *func, int op){
+  FILE *fp = fopen("../clog.txt", a);
+  char el[6];
+  if(op == 0){ el = "ENTER\0"; }
+  else{ el = "LEAVE\0"; }
+  time_t ltime = time(NULL);
+  fprintf(fp, "LOG ENTRY: %s\n"
+              "  %s %s -- Locals\n", 
+              asctime(localtime(&ltime)), func, op);
+  fclose();
+}
+void lm(int argc, char *argv[], double a, double b, double c, Tuple qresult){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+void ld(double a, double b, double c, double d){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+void lq(double a, double b, double c, double d, Tuple result){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+void lvd(char *input, double result, int r){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+void lvm(char *choice, int c){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+void lr(char *input){
+  FILE *fp = fopen("../clog.txt", a);
+
+  fclose();
+}
+
