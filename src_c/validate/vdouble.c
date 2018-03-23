@@ -1,5 +1,10 @@
 // Copyright © 2018, Bryan Greener (https://github.com/bryangreener).
 #include "vdouble.h"
+// Method that takes in string, validates that it is a double,
+// and returns an integer specifying that the value can be converted.
+// The value is then converted in the calling function.
+// Takes in a char* string input.
+// Returns integer (acting as bool) with either 0 or 1.
 int vdouble(char *input){
   // LOGGING START
   writeLog("vdouble", 0);

@@ -1,7 +1,13 @@
 #include "main.h"
+// Main method for the entire program.
+// This method handles calling all other functions of the program.
+// Logic performed in this method is minimal and it doesn't do any
+// math claculations.
+// Takes standard IO in.
+// No returns.
 int main(int argc, char *argv[]){
   char *input;
-  FILE *fp = fopen("clog.txt", "ab+");
+  FILE *fp = fopen("clog.txt", "ab+"); // open/create log file
   fclose(fp);
 
   // LOGGING START
@@ -33,6 +39,7 @@ int main(int argc, char *argv[]){
       printQF();
       double a, b, c;
       int vresult;
+      // Loop through each input for a, b, and c. a != 0
       do{
         entryHeader(1);
         input = rline();
