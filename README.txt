@@ -26,8 +26,28 @@ src_c
   This folder has subfolders split by functions that each part of the program
   performs. Contains the source files for the program.
 
-README.txt
-  You're reading this.
+SRC__r 
+  This folder has subfolders split by functions that each part of the R program
+  performs. Contains the source files for the program.
+
+documentation 
+  This folder contains documentation regarding coding standards, IEEEfp, and 
+  any other helpful information that applies to the implementation of the 
+  quadsolver programs both for the C and the R versions of the program.
+
+spikes 
+  This folder contains source code that relates to different changes made to 
+  the program. For example, if a new function was added to the program or a 
+  new function was being tested, then it would be saved in a version number 
+  in this folder.
+
+test 
+  This folder contains the cunit folder and files provided to us. No changes 
+  have been made to this folder or its contents, it is simply a backup.
+
+README.md/README.txt 
+  You're reading one of these. They are copies of each other but with different 
+  text formatting for GUI output.
 
 makefile
   This file compiles all .c files in the src directory, saves object files to
