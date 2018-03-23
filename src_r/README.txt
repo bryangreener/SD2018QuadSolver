@@ -18,13 +18,13 @@ rLiner.r
 rNumber_Validator.r
 
  - inputs values from rLiner.r and checks for NA's, NaN's, and +|- Inf's
-   also makes sure the values inputted meet IEEEfp standards
-   calculates the determinant of the quadratic equation if all checks are passed
+   also makes sure the values inputted meet IEEEfp standards. This file also
+   calculates the determinant of the quadratic equation if all checks are passed.
 
 qSolver.r
 
  - Inputs the list created in rNumber_Validator.r
-   qSolver.r makes sure that the determinant value of the equation does not equal zero
+   qSolver.r makes sure that the determinant value of the equation does not equal zero.
    It also sends a warning message to the user is the determinant equals zero (which means the equation
    will have a double zero). This program calculates the zeros (and double zeros) for the quadratic equations inputted.
 

@@ -1,4 +1,3 @@
-Flag	Message	Input
-2	Error: Positive Overflow or Positive Underflow is present in inputted values.	5.02e+289
-2	Error: Positive Overflow or Positive Underflow is present in inputted values.	56.651189
-2	Error: Positive Overflow or Positive Underflow is present in inputted values.	4.151484
+Flag	Solutions
+0	-0.0011009
+0	-12399986670.2546

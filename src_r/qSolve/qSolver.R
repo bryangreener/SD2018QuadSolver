@@ -28,9 +28,9 @@ c <- output$c
   
 if (det_val > 0.0) {
   
-  x1 <- (-b + sqrt(det_val))/ (2.0 * a)
+  x1 <- round((-b + sqrt(det_val))/ (2.0 * a), 7)
   
-  x2 <- (-b - sqrt(det_val))/ (2.0 * a)
+  x2 <- round((-b - sqrt(det_val))/ (2.0 * a), 7)
   
   zeros <- c(x1, x2)
   
@@ -47,7 +47,7 @@ if (det_val > 0.0) {
 
 else if (identical(det_val, 0.0)) {
   
-  x <- (-b + sqrt(det_val))/(2.0 * a)
+  x <- round((-b + sqrt(det_val))/(2.0 * a), 7)
   
   values <- c(a, b, c)
   
