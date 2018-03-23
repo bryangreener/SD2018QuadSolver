@@ -19,7 +19,7 @@ $(TARGET): $(OBJECTS)
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
 	@mkdir -p $(BUILDDIR) $(BUILDDIR)/rline $(BUILDDIR)/wline $(BUILDDIR)/validate
-	@mkdir -p $(BUILDDIR)/qsolve $(BUILDDIR)/main
+	@mkdir -p $(BUILDDIR)/qsolve $(BUILDDIR)/main $(BUILDDIR)/cunit
 	@echo "$(CC) $(CFLAGS) $(INC) -c -o $@ $<"; $(CC) $(CFLAGS) $(INC) -c -o $@ $<
 
 clean:

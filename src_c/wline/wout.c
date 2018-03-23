@@ -6,7 +6,8 @@ void mainMenu(void){
   hRule();
   printf( "Please Select an Option\n"
           "1) Solve Quadratic Equation\n"
-          "2) Exit\n" );
+          "2) Run Tests\n"
+          "3) Exit\n" );
 }
 void entryHeader(int step){
   switch(step){

@@ -6,5 +6,6 @@
 #include "rline.h"
 #include "qsolve.h"
 #include "wout.h"
+#include "cunit.h"
 int main(int argc, char *argv[]);
 #endif
