@@ -20,7 +20,7 @@ Tuple qsolve(double a, double b, double c){
     lq(a, b, c, d, result);
     return result;
   }
-  else if(d == 0){
+  else if(((double)(d - 0.00000001) < 0.0) && (double)(d + 0.00000001) > 0.0){
     Tuple result = {
       (double)(-b) / (double)(2.0*a),
       (double)(-b) / (double)(2.0*a) };

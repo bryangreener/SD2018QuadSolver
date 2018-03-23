@@ -26,7 +26,7 @@ void cunit(void){
 
   printf("Test #5: Discriminant of 1x^2 + 4x + 2 = 0\n");
   if(assertEqual(disc(1.0,4.0,2.0), 
-        2.828427124746190097603377448419396157139343750753896146353) == 1){ 
+        2.82842712) == 1){ 
     pass(5); }
   else{ fail(5); }
 
@@ -37,7 +37,8 @@ void cunit(void){
 
   printf("Test #7: Roots of 1x^2 + 1x + 0 = 0\n");
   result = qsolve(1, 1, 0);
-  if(assertEqual(result.r1, -1) && assertEqual(result.r2, 0)){ pass(7); }
+  if(assertEqual(result.r1, 0.0) == 1 && assertEqual(result.r2, -1.0) == 1){
+    pass(7); }
   else{ fail(7); }
 
   printf("Test #8: Roots of 1x^2 + 2x + 1 = 0\n");
