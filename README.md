@@ -3,42 +3,42 @@
 Bryan Greener, Dylan Martin, and Paul Phillips
 
 ## FOLDER CONTENTS
-bin_c
+bin_c<br />
   This folder only ever has one file in it. This is where the "quadsolver"
   executable is saved and can be ran from.
 
-build_c
+build_c<br />
   This folder is where all object files are saved into their appropriate
   subfolders. These are used while linking in order to build the executable.
 
-cunit
+cunit<br />
   Folder with all subfolders and files containing CUNIT testing files
   and headers.
 
-include_c
+include_c<br />
   This folder contains only header files all in the top level directory.
   These headers are used by files in src
 
-src_c
+src_c<br />
   This folder has subfolders split by functions that each part of the C program
   performs. Contains the source files for the program.
 
-SRC__r
+SRC__r<br />
   This folder has subfolders split by functions that each part of the R program
   performs. Contains the source files for the program.
 
-documentation
+documentation<br />
   This folder contains documentation regarding coding standards, IEEEfp, and
   any other helpful information that applies to the implementation of the
   quadsolver programs both for the C and the R versions of the program.
 
-spikes
+spikes<br />
   This folder contains source code that relates to different changes made to
   the program. For example, if a new function was added to the program or
   a new function was being tested, then it would be saved in a version number
   in this folder.
 
-test
+test<br />
   This folder contains the cunit folder and files provided to us. No changes
   have been made to this folder or its contents, it is simply a backup.
 
