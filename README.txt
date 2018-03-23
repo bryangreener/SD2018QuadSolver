@@ -49,6 +49,12 @@ README.md/README.txt
   You're reading one of these. They are copies of each other but with different 
   text formatting for GUI output.
 
+clog.txt 
+  This file is a log of the C program during runtime. It displays a timestamp 
+  for each time a method is entered, the local variables at entry, the time 
+  the method is exited, and the locals at exit. This file is generated at 
+  runtime if it does not exist, otherwise it is appended.
+  
 makefile
   This file compiles all .c files in the src directory, saves object files to
   the build folder, then links these files in order to generate an executable
