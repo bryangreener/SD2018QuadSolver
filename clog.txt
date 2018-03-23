@@ -1,100 +1,100 @@
-==NEW LOG ENTRY: Fri Mar 23 18:43:38 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:28 2018
   ENTER main
   Locals:
     argc:   1
     argv:   ./bin_c/quadsolver
-==NEW LOG ENTRY: Fri Mar 23 18:43:38 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:28 2018
   ENTER rline
   Locals:
     input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE rline
   Locals:
     input:  2
 
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER vmenu
   Locals:
     choice: 2
 
     c:      -1
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE vmenu
   Locals:
     choice: 2
 
     c:      2
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      2.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      2.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      2.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      2.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      2.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      2.0000000e+00
     d:      -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      4.0000000e+00
     c:      2.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      4.0000000e+00
     c:      2.0000000e+00
     d:      2.8284271e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER qsolve
   Locals:
     a:      1.0000000e+00
@@ -103,21 +103,21 @@
     d:      0.0000000e+00
     r1:     0.0000000e+00
     r2:     0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      1.0000000e+00
     d:      -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE qsolve
   Locals:
     a:      1.0000000e+00
@@ -126,7 +126,7 @@
     d:      -nan
     r1:     -nan
     r2:     -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER qsolve
   Locals:
     a:      1.0000000e+00
@@ -135,21 +135,21 @@
     d:      0.0000000e+00
     r1:     0.0000000e+00
     r2:     0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      0.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      1.0000000e+00
     c:      0.0000000e+00
     d:      1.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE qsolve
   Locals:
     a:      1.0000000e+00
@@ -158,7 +158,7 @@
     d:      1.0000000e+00
     r1:     0.0000000e+00
     r2:     -1.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER qsolve
   Locals:
     a:      1.0000000e+00
@@ -167,21 +167,21 @@
     d:      0.0000000e+00
     r1:     0.0000000e+00
     r2:     0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER disc
   Locals:
     a:      1.0000000e+00
     b:      2.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE disc
   Locals:
     a:      1.0000000e+00
     b:      2.0000000e+00
     c:      1.0000000e+00
     d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   LEAVE qsolve
   Locals:
     a:      1.0000000e+00
@@ -190,273 +190,7 @@
     d:      0.0000000e+00
     r1:     -1.0000000e+00
     r2:     -1.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:39 2018
+==NEW LOG ENTRY: Fri Mar 23 19:20:30 2018
   ENTER rline
   Locals:
     input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:43 2018
-  LEAVE rline
-  Locals:
-    input:  1
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:43 2018
-  ENTER vmenu
-  Locals:
-    choice: 1
-
-    c:      -1
-==NEW LOG ENTRY: Fri Mar 23 18:43:43 2018
-  LEAVE vmenu
-  Locals:
-    choice: 1
-
-    c:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:43 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  LEAVE rline
-  Locals:
-    input:  1
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  ENTER vdouble
-  Locals:
-    input:  1
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  LEAVE vdouble
-  Locals:
-    input:  1
-
-    result: 1.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  LEAVE rline
-  Locals:
-    input:  1
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  ENTER vdouble
-  Locals:
-    input:  1
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  LEAVE vdouble
-  Locals:
-    input:  1
-
-    result: 1.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:44 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  LEAVE rline
-  Locals:
-    input:  0
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  ENTER vdouble
-  Locals:
-    input:  0
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  LEAVE vdouble
-  Locals:
-    input:  0
-
-    result: 0.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  ENTER qsolve
-  Locals:
-    a:      1.0000000e+00
-    b:      1.0000000e+00
-    c:      0.0000000e+00
-    d:      0.0000000e+00
-    r1:     0.0000000e+00
-    r2:     0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  ENTER disc
-  Locals:
-    a:      1.0000000e+00
-    b:      1.0000000e+00
-    c:      0.0000000e+00
-    d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  LEAVE disc
-  Locals:
-    a:      1.0000000e+00
-    b:      1.0000000e+00
-    c:      0.0000000e+00
-    d:      1.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  LEAVE qsolve
-  Locals:
-    a:      1.0000000e+00
-    b:      1.0000000e+00
-    c:      0.0000000e+00
-    d:      1.0000000e+00
-    r1:     0.0000000e+00
-    r2:     -1.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:45 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:49 2018
-  LEAVE rline
-  Locals:
-    input:  1
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:49 2018
-  ENTER vmenu
-  Locals:
-    choice: 1
-
-    c:      -1
-==NEW LOG ENTRY: Fri Mar 23 18:43:49 2018
-  LEAVE vmenu
-  Locals:
-    choice: 1
-
-    c:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:49 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  LEAVE rline
-  Locals:
-    input:  4
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  ENTER vdouble
-  Locals:
-    input:  4
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  LEAVE vdouble
-  Locals:
-    input:  4
-
-    result: 4.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  LEAVE rline
-  Locals:
-    input:  2
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  ENTER vdouble
-  Locals:
-    input:  2
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  LEAVE vdouble
-  Locals:
-    input:  2
-
-    result: 2.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:53 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  LEAVE rline
-  Locals:
-    input:  1
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  ENTER vdouble
-  Locals:
-    input:  1
-
-    result: 0.0000000e+00
-    r:      0
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  LEAVE vdouble
-  Locals:
-    input:  1
-
-    result: 1.0000000e+00
-    r:      1
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  ENTER qsolve
-  Locals:
-    a:      4.0000000e+00
-    b:      2.0000000e+00
-    c:      1.0000000e+00
-    d:      0.0000000e+00
-    r1:     0.0000000e+00
-    r2:     0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  ENTER disc
-  Locals:
-    a:      4.0000000e+00
-    b:      2.0000000e+00
-    c:      1.0000000e+00
-    d:      0.0000000e+00
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  LEAVE disc
-  Locals:
-    a:      4.0000000e+00
-    b:      2.0000000e+00
-    c:      1.0000000e+00
-    d:      -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  LEAVE qsolve
-  Locals:
-    a:      4.0000000e+00
-    b:      2.0000000e+00
-    c:      1.0000000e+00
-    d:      -nan
-    r1:     -nan
-    r2:     -nan
-==NEW LOG ENTRY: Fri Mar 23 18:43:54 2018
-  ENTER rline
-  Locals:
-    input:  (null)
-==NEW LOG ENTRY: Fri Mar 23 18:43:57 2018
-  LEAVE rline
-  Locals:
-    input:  3
-
-==NEW LOG ENTRY: Fri Mar 23 18:43:57 2018
-  ENTER vmenu
-  Locals:
-    choice: 3
-
-    c:      -1
-==NEW LOG ENTRY: Fri Mar 23 18:43:57 2018
-  LEAVE vmenu
-  Locals:
-    choice: 3
-
-    c:      3
-==NEW LOG ENTRY: Fri Mar 23 18:43:57 2018
-  LEAVE main
-  Locals:
-    argc:   1
-    argv:   ./bin_c/quadsolver

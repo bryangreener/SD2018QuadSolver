@@ -1,11 +1,12 @@
 #include<unittests.h>
 
-int assertEqual(double a, double b){
+void assertEqual(double a, double b, int test){
   double precision = 0.00000001;
   if(((double)(a - precision) < b) && ((double)(a + precision) > b)){
-    return 1; 
-    }
-    else{ return 0;}
+    pass(test); 
+  }
+  else{ fail(test); }
+  
 }
 int assertNEqual(double a, double b){
   if(a == b){ return 0; }
