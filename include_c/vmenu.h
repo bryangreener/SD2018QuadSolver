@@ -3,5 +3,6 @@
 #define VMENU_H_ "vmenu.h"
 #include<stdlib.h>
 #include<stdio.h>
+#include "wout.h"
 int vmenu(char *choice);
 #endif

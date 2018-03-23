@@ -5,14 +5,16 @@
 #include<stdlib.h>
 #include<math.h>
 #include<time.h>
+#include "main.h"
+#include "tuple.h"
 void mainMenu(void);
 void entryHeader(int step);
 void hRule(void);
 void inputError(void);
 void printQF(void);
 void printResult(double r1, double r2);
-void writeLog(char *func, int op, double a, double b, double c);
-void lm(int argc, char *argv[], double a, double b, double c, Tuple qresult);
+void writeLog(char *func, int op);
+void lm(int argc, char *argv[]);
 void ld(double a, double b, double c, double d);
 void lq(double a, double b, double c, double d, Tuple result);
 void lvd(char *input, double result, int r);

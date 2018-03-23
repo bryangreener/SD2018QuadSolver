@@ -55,44 +55,62 @@ void printResult(double r1, double r2){
 }
 
 void writeLog(char *func, int op){
-  FILE *fp = fopen("../clog.txt", a);
-  char el[6];
-  if(op == 0){ el = "ENTER\0"; }
-  else{ el = "LEAVE\0"; }
+  FILE *fp = fopen("clog.txt", "a");
+  char *el = malloc(6);
+  if(op == 0){ el = strdup("ENTER"); }
+  else{ el = strdup("LEAVE"); }
   time_t ltime = time(NULL);
-  fprintf(fp, "LOG ENTRY: %s\n"
-              "  %s %s -- Locals\n", 
-              asctime(localtime(&ltime)), func, op);
-  fclose();
+  fprintf(fp, "==NEW LOG ENTRY: %s"
+              "  %s %s\n"
+              "  Locals:\n", 
+              asctime(localtime(&ltime)), el, func);
+  fclose(fp);
 }
-void lm(int argc, char *argv[], double a, double b, double c, Tuple qresult){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+void lm(int argc, char *argv[]){
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    argc:   %i\n"
+              "    argv:   %s\n",
+              argc, *argv);
+  fclose(fp);
 }
 void ld(double a, double b, double c, double d){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    a:      %.7e\n"
+              "    b:      %.7e\n"
+              "    c:      %.7e\n"
+              "    d:      %.7e\n",
+              a, b, c, d);
+  fclose(fp);
 }
 void lq(double a, double b, double c, double d, Tuple result){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    a:      %.7e\n"
+              "    b:      %.7e\n"
+              "    c:      %.7e\n"
+              "    d:      %.7e\n"
+              "    r1:     %.7e\n"
+              "    r2:     %.7e\n",
+              a, b, c, d, result.r1, result.r2); 
+  fclose(fp);
 }
 void lvd(char *input, double result, int r){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    input:  %s\n"
+              "    result: %.7e\n"
+              "    r:      %i\n",
+              input, result, r);
+  fclose(fp);
 }
 void lvm(char *choice, int c){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    choice: %s\n"
+              "    c:      %i\n",
+              choice, c);
+  fclose(fp);
 }
 void lr(char *input){
-  FILE *fp = fopen("../clog.txt", a);
-
-  fclose();
+  FILE *fp = fopen("clog.txt", "a");
+  fprintf(fp, "    input:  %s\n", input);
+  fclose(fp);
 }
 

@@ -4,5 +4,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include "wout.h"
 int vdouble(char *input);
 #endif

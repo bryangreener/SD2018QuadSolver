@@ -3,5 +3,6 @@
 #define RLINE_H_ "rline.h"
 #include<stdio.h>
 #include<stdlib.h>
+#include "wout.h"
 char* rline(void);
 #endif

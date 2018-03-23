@@ -1,6 +1,13 @@
 #include "main.h"
 int main(int argc, char *argv[]){
   char *input;
+  FILE *fp = fopen("clog.txt", "ab+");
+  fclose(fp);
+
+  // LOGGING START
+  writeLog("main", 0);
+  lm(argc, argv);
+
   //Print menu
   while(1){
     mainMenu();
@@ -13,7 +20,13 @@ int main(int argc, char *argv[]){
       input = rline();
       choice = vmenu(input);
     }
-    if(choice == 3){ exit(0); }
+    if(choice == 3){ 
+      // LOGGING END
+      writeLog("main", 1);
+      lm(argc, argv);
+
+      exit(0); 
+    }
     else if(choice == 2){ cunit(); }
     else{
       //QUAD INPUT HANDLING
