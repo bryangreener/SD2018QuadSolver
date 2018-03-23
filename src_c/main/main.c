@@ -25,7 +25,8 @@ int main(int argc, char *argv[]){
         input = rline();
         vresult = vdouble(input);
         if(vresult == 1){ a = atof(input); }
-      }while(vresult != 1 && a == 0);
+        if(a == 0){ printf("a cannot equal 0\n"); }
+      }while(vresult != 1 ||  a == 0);
       do{
         entryHeader(2);
         input = rline();
